@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(235, 235, 235);
+}
+
 .piano {
   display: flex;
   width: 1062px;
@@ -20,17 +28,27 @@ body {
   box-sizing: border-box;
 }
 
-.black-key {
-  background-color: black;
+span {
+  font-size: 15px;
+  text-transform: lowercase;
+}
+
+.black-key,
+.white-key,
+.white-key-gap {
+  /* padding-top: 10px; */
   height: 50%;
   width: 30px;
+  border-radius: 4px;
+}
+
+.black-key {
+  background-color: rgb(15, 14, 14);
   color: white;
 }
 
 .white-key {
   background-color: rgb(255, 255, 255);
-  height: 50%;
-  width: 30px;
 }
 
 .white-key-gap {
