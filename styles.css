@@ -4,6 +4,7 @@
 
 body {
   background: rgb(235, 235, 235);
+  text-align: center;
 }
 
 .piano {
@@ -36,7 +37,7 @@ span {
 .black-key,
 .white-key,
 .white-key-gap {
-  /* padding-top: 10px; */
+  padding-top: 10px;
   height: 50%;
   width: 30px;
   border-radius: 4px;
